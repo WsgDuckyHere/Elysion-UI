@@ -1078,9 +1078,6 @@ function library:page(props)
 	-- // metatable indexing + return
 	setmetatable(page, pages)
 	return page
-	-- // metatable indexing + return
-	setmetatable(page, pages)
-	return page
 end
 --
 function pages:openpage()
